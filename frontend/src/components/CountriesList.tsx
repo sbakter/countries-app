@@ -195,7 +195,7 @@ const CountriesList = () => {
                 columnWidth={width / 4}
                 height={height}
                 rowCount={Math.ceil(filteredCountries.length / 4)}
-                rowHeight={300}
+                rowHeight={370}
                 width={width}
               >
                 {({ columnIndex, rowIndex, style }) => {
